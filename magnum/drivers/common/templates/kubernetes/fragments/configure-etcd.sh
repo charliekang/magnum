@@ -40,5 +40,5 @@ EOF
 fi
 
 if [ -n "$HTTP_PROXY" ]; then
-    echo "ETCD_DISCOVERY_PROXY=$HTTP_PROXY" >> /etc/etcd/etcd.conf
+    echo "ETCD_DISCOVERY_PROXY=" >> /etc/etcd/etcd.conf
 fi
